@@ -1,0 +1,41 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/89t33M0/imgaes-1.jpg",
+      "title": "Sajek Valley, Rangamati",
+      "short_description": "City of lights, Eiffel Tower, art, and romance."
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/4PkmryK/images-2.webp",
+      "title": "Sentmartin,Chattogram",
+      "short_description": "Historical temples, gardens, and traditional culture."
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/yWwY37H/imgaes-3.jpg",
+      "title": "Sundarban, Khulna",
+      "short_description": "Stunning sunsets, whitewashed buildings, and blue sea."
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/3WbxgYk/imgaes-4.webp",
+      "title": "Sentmartin,Chattogram",
+      "short_description": "Skyscrapers, Central Park, Broadway, and diverse culture."
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/KGPM21w/imgaes-5.jpg",
+      "title": "Cox's Bazar,Chattogram",
+      "short_description": "Table Mountain, beaches, vineyards, and rich history."
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/pXS1ggd/imgaes-6.jpg",
+      "title": "Zaflong,Sylhet",
+      "short_description": "Table Mountain, beaches, vineyards, and rich history."
+    }
+    
+  ]
+}
