@@ -22,7 +22,11 @@ const ChooseTrip = () => {
             trip of a lifetime with ease.
           </p>
         </div>
-        <div className="lg:w-[1150px] mx-auto bg-white grid lg:grid-cols-4 rounded-xl shadow-md items-center px-10 py-8">
+        <div
+          className="lg:w-[1150px] mx-auto bg-white grid lg:grid-cols-4 rounded-xl shadow-md items-center px-10 py-8"
+          data-aos="fade-down"
+          data-aos-duration="900"
+        >
           <div className="flex items-center gap-5">
             <span>
               <FaSearch className="text-[#5ca13e] text-3xl font-bold" />

@@ -6,17 +6,17 @@ const Adventure = () => {
     <div className="mx-auto max-w-7xl mb-20">
       <div className="space-y-5 mb-20">
         <h2 className="text-3xl font-reenie font-bold text-[#5ca13e]">
-          Dream Vacation Destination
+          Next Adventure
         </h2>
         <h1 className="text-5xl font-bold">
-          Plan the Trip of a Lifetime
-          <br /> with Ease
+          Travel Destinations <br />
+          Available Worldwide
         </h1>
         <p className="text-xl">
           Whether you're looking for a romantic getaway, a family-friendly
-          adventure, or a solo journey to explore the world, a travel agency can
-          provide you with a custom-tailored itinerary that exceeds your
-          expectations.
+          adventure, or a<br /> solo journey to explore the world, a travel
+          agency can provide you with a<br /> custom-tailored itinerary that
+          exceeds your expectations.
         </p>
         <button
           className="btn font-bold bg-[#5ca13e] text-white hover:bg-[#5ca13e] transition-transform duration-300

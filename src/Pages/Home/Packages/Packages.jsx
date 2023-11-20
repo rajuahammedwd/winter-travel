@@ -6,7 +6,11 @@ const Packages = () => {
     <div className="max-w-7xl mx-auto mb-20">
       <div className="grid lg:grid-cols-3 gap-10">
         {/* Card 1 */}
-        <div className="card relative  shadow-xl rounded-xl">
+        <div
+          className="card relative  shadow-xl rounded-xl"
+          data-aos="fade-right"
+          data-aos-duration="900"
+        >
           <figure>
             <img
               className="w-full overflow-hidden"
@@ -26,13 +30,13 @@ const Packages = () => {
 
           <div className="p-5 mt-10">
             <div>
-              <h2 className="text-xl font-bold ">Chiang Mai</h2>
+              <h2 className="text-xl font-bold ">Sajek Valley</h2>
 
               <p className="flex items-center ">
                 <span>
                   <FaMapMarkerAlt className="text-[#5ca13e] text-xl mr-2" />
                 </span>
-                Thailand
+                Rangamati
               </p>
             </div>
             <div className="divider"></div>
@@ -50,13 +54,17 @@ const Packages = () => {
               </button>
               <div className="flex flex-col items-end">
                 <p>From</p>
-                <p className="text-xl font-bold">$300</p>
+                <p className="text-xl font-bold">$500</p>
               </div>
             </div>
           </div>
         </div>
         {/* card 2 */}
-        <div className="card relative shadow-xl rounded-xl">
+        <div
+          className="card relative shadow-xl rounded-xl"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <figure>
             <img
               className="w-full overflow-hidden"
@@ -66,7 +74,7 @@ const Packages = () => {
           </figure>
           <div className="w-80 absolute bottom-[340px] z-10  right-12 bg-white flex justify-between items-center px-5 shadow-md py-3 rounded-md">
             <span className="flex items-center gap-2">
-              <FaClock className="text-[#5ca13e] text-xl" />1 Weeks
+              <FaClock className="text-[#5ca13e] text-xl" />5 Days
             </span>
             <span className="flex items-center gap-2">
               <FaEnvelope className="text-[#5ca13e] text-xl" />
@@ -75,13 +83,13 @@ const Packages = () => {
           </div>
           <div className="p-5 mt-10">
             <div>
-              <h2 className="text-xl font-bold ">Chiang Mai</h2>
+              <h2 className="text-xl font-bold ">Sentmartin</h2>
 
               <p className="flex items-center ">
                 <span>
                   <FaMapMarkerAlt className="text-[#5ca13e] text-xl mr-2" />
                 </span>
-                Thailand
+                Chattogram
               </p>
             </div>
             <div className="divider"></div>
@@ -105,7 +113,11 @@ const Packages = () => {
           </div>
         </div>
         {/* card 3 */}
-        <div className="card relative shadow-xl rounded-xl">
+        <div
+          className="card relative shadow-xl rounded-xl"
+          data-aos="fade-left"
+          data-aos-duration="900"
+        >
           <figure>
             <img
               className="w-full overflow-hidden"
@@ -115,7 +127,7 @@ const Packages = () => {
           </figure>
           <div className="w-80 absolute bottom-[340px] z-10  right-12 bg-white flex justify-between items-center px-5 shadow-md py-3 rounded-md">
             <span className="flex items-center gap-2">
-              <FaClock className="text-[#5ca13e] text-xl" />1 Weeks
+              <FaClock className="text-[#5ca13e] text-xl" />3 Days
             </span>
             <span className="flex items-center gap-2">
               <FaEnvelope className="text-[#5ca13e] text-xl" />
@@ -124,13 +136,13 @@ const Packages = () => {
           </div>
           <div className="p-5 mt-10">
             <div>
-              <h2 className="text-xl font-bold ">Chiang Mai</h2>
+              <h2 className="text-xl font-bold ">Sundarban</h2>
 
               <p className="flex items-center ">
                 <span>
                   <FaMapMarkerAlt className="text-[#5ca13e] text-xl mr-2" />
                 </span>
-                Thailand
+                Khulna
               </p>
             </div>
             <div className="divider"></div>
@@ -148,7 +160,7 @@ const Packages = () => {
               </button>
               <div className="flex flex-col items-end">
                 <p>From</p>
-                <p className="text-xl font-bold">$300</p>
+                <p className="text-xl font-bold">$150</p>
               </div>
             </div>
           </div>
