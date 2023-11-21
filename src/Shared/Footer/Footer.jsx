@@ -14,7 +14,7 @@ const Footer = () => {
           data-aos="fade-right"
           data-aos-duration="900"
         >
-          <h2 className="text-white text-5xl font-bold line-height-10">
+          <h2 className="text-white text-3xl md:text-5xl font-bold leading-10">
             Travel beyond your imagination, with our Travel Agency!
           </h2>
         </div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
-  FaTwitter,
+  FaLinkedin,
   FaYoutube,
   FaAlignJustify,
 } from "react-icons/fa";
@@ -14,16 +14,16 @@ const Navbar = () => {
         <Link className="hover:text-[#5ca13e] hover:bg-white">Home</Link>
       </li>
       <li>
-        <Link className="hover:text-[#5ca13e] hover:bg-white">Travel</Link>
+        <Link to={"/destination"} className="hover:text-[#5ca13e] hover:bg-white">Destination</Link>
       </li>
       <li>
         <Link className="hover:text-[#5ca13e] hover:bg-white">Pages</Link>
       </li>
       <li>
-        <Link className="hover:text-[#5ca13e] hover:bg-white">Blog</Link>
+        <Link to={"/about"} className="hover:text-[#5ca13e] hover:bg-white">About</Link>
       </li>
       <li>
-        <Link className="hover:text-[#5ca13e] hover:bg-white">Contact Us</Link>
+        <Link to={"/contact"} className="hover:text-[#5ca13e] hover:bg-white">Contact Us</Link>
       </li>
     </>
   );
@@ -77,13 +77,31 @@ const Navbar = () => {
       <div className="navbar-end">
         <ul className="flex gap-6">
           <li>
-            <FaFacebook className="text-xl hover:text-[#3E54AB]" />
+            <a
+              href="https://www.facebook.com/rajuahammedwd/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaFacebook className="text-xl hover:text-[#3E54AB]" />
+            </a>
           </li>
           <li>
-            <FaTwitter className="text-xl hover:text-[#60B8FF]" />
+            <a
+              href="https://www.linkedin.com/in/rajuahammedwd/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaLinkedin className="text-xl hover:text-[#4675db]" />
+            </a>
           </li>
           <li>
-            <FaYoutube className="text-xl hover:text-[#FE2E3C]" />
+            <a
+              href="https://www.youtube.com/youtube420r"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaYoutube className="text-xl hover:text-[#FE2E3C]" />
+            </a>
           </li>
           <li>
             <FaAlignJustify className="text-xl hover:text-[#5ca13e]" />
