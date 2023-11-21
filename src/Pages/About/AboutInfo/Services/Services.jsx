@@ -1,6 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Services = () => {
+    const [services, setServices] = useState([]);
+
+    useEffect(() => {
+      // Fetch data from the JSON file
+      fetch("fakeData.json")
+        .then((response) => response.json())
+        .then((data) => {
+          setServices(data.services);
+        })
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
+    }, []);
+    
     return (
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-5 mb-10">

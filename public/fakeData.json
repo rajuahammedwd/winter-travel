@@ -40,33 +40,33 @@
   ],
   "services": [
     {
-      "image": "https://example.com/service1.jpg",
-      "title": "Service 1",
+      "image": "https://i.ibb.co/Y392cMr/b-icon-01.png",
+      "title": "Airline Tickets",
       "description": "Service 1 provides innovative solutions, catering to diverse needs with efficiency and reliability."
     },
     {
-      "image": "https://example.com/service2.jpg",
-      "title": "Service 2",
+      "image": "https://i.ibb.co/1Jq4m22/b-icon-02.png",
+      "title": "Ocean Cruises",
       "description": "Service 2 delivers cutting-edge technology, ensuring seamless integration and exceptional performance."
     },
     {
-      "image": "https://example.com/service3.jpg",
-      "title": "Service 3",
+      "image": "https://i.ibb.co/c63305t/b-icon-04.png",
+      "title": "Means of Transport",
       "description": "Service 3 offers personalized solutions, crafted with precision and attention to client requirements."
     },
     {
-      "image": "https://example.com/service4.jpg",
-      "title": "Service 4",
+      "image": "https://i.ibb.co/WVqDgbd/b-icon-03.png",
+      "title": "Travel itineraries",
       "description": "Service 4 specializes in optimizing workflows, enhancing productivity, and driving business growth."
     },
     {
-      "image": "https://example.com/service5.jpg",
-      "title": "Service 5",
+      "image": "https://i.ibb.co/1zJGSNd/b-icon-05.png",
+      "title": "Travel Insurance",
       "description": "Service 5 focuses on user-centric design, delivering intuitive interfaces and engaging experiences."
     },
     {
-      "image": "https://example.com/service6.jpg",
-      "title": "Service 6",
+      "image": "https://i.ibb.co/HGsc3tx/b-icon-06.png",
+      "title": "Local Guide",
       "description": "Service 6 ensures data security, implementing robust measures for confidentiality and integrity."
     }
   ]
