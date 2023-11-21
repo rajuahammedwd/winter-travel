@@ -2,16 +2,10 @@ import "./gallery.css";
 const Gallery = ({ data }) => {
   return (
     <div className="min-h-screen grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:px-20 mb-20">
-      {data?.map((item, index) => (
+      {data?.map((item) => (
         <div className="group h-fit relative overflow-hidden" key={item.id}>
           <img
-            className={`w-full ${
-              index === 1
-                ? "h-[700px]"
-                : index === 4
-                ? "h-[350px]"
-                : "h-[500px]"
-            } overflow-hidden transition-transform duration-700 transform-gpu group-hover:scale-110`}
+            className="w-full h-[500px] overflow-hidden transition-transform duration-700 transform-gpu group-hover:scale-110"
             src={item.img}
             alt={item.title}
           />
