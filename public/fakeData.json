@@ -37,5 +37,37 @@
       "short_description": "Table Mountain, beaches, vineyards, and rich history."
     }
     
+  ],
+  "services": [
+    {
+      "image": "https://example.com/service1.jpg",
+      "title": "Service 1",
+      "description": "Service 1 provides innovative solutions, catering to diverse needs with efficiency and reliability."
+    },
+    {
+      "image": "https://example.com/service2.jpg",
+      "title": "Service 2",
+      "description": "Service 2 delivers cutting-edge technology, ensuring seamless integration and exceptional performance."
+    },
+    {
+      "image": "https://example.com/service3.jpg",
+      "title": "Service 3",
+      "description": "Service 3 offers personalized solutions, crafted with precision and attention to client requirements."
+    },
+    {
+      "image": "https://example.com/service4.jpg",
+      "title": "Service 4",
+      "description": "Service 4 specializes in optimizing workflows, enhancing productivity, and driving business growth."
+    },
+    {
+      "image": "https://example.com/service5.jpg",
+      "title": "Service 5",
+      "description": "Service 5 focuses on user-centric design, delivering intuitive interfaces and engaging experiences."
+    },
+    {
+      "image": "https://example.com/service6.jpg",
+      "title": "Service 6",
+      "description": "Service 6 ensures data security, implementing robust measures for confidentiality and integrity."
+    }
   ]
 }

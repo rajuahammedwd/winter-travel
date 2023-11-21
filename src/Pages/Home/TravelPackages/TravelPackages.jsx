@@ -8,7 +8,7 @@ const TravelPackages = () => {
           Clear Price
         </h2>
         <h1 className="text-5xl font-bold">Affordable Travel Packages</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#837e7e]">
           We believe that everyone deserves to experience their dream vacation
           without breaking the bank.
           <br /> That's why we offer a price section on our website that

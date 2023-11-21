@@ -12,7 +12,7 @@ const Adventure = () => {
           Travel Destinations <br />
           Available Worldwide
         </h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#837e7e]">
           Whether you're looking for a romantic getaway, a family-friendly
           adventure, or a<br /> solo journey to explore the world, a travel
           agency can provide you with a<br /> custom-tailored itinerary that

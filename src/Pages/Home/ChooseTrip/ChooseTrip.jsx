@@ -15,7 +15,7 @@ const ChooseTrip = () => {
             Choose your Trip
           </h3>
           <h1 className="text-5xl font-bold">Start your Vacation Now</h1>
-          <p className="text-xl">
+          <p className="text-xl text-[#837e7e]">
             Looking for your dream vacation destination but don't know where to
             start? With the help of
             <br /> experienced and knowledgeable travel agents, you can plan the

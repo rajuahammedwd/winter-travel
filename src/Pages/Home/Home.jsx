@@ -8,7 +8,9 @@ import TravelPackages from "./TravelPackages/TravelPackages";
 
 const Home = () => {
   useEffect(() => {
-    fetch("/public/fakeData.json")
+    fetch(
+      "https://raw.githubusercontent.com/rajuahammedwd/winter-travel/main/public/fakeData.json"
+    )
       .then((response) => response.json())
       .then((data) => {
         setData(data.destinations);

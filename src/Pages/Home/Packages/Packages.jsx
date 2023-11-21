@@ -13,8 +13,8 @@ const Packages = () => {
         >
           <figure>
             <img
-              className="w-full overflow-hidden"
-              src="https://i.ibb.co/1bXXB5J/Package-1.jpg"
+              className="w-full h-[267px] overflow-hidden"
+              src="https://i.ibb.co/vQnBZL3/valley.jpg"
               alt=""
             />
           </figure>
@@ -40,7 +40,7 @@ const Packages = () => {
               </p>
             </div>
             <div className="divider"></div>
-            <p className="text-xl">
+            <p className="text-xl text-[#837e7e]">
               Visit the temples and the Chiang Mai Night Bazaar, a huge huge
               market located on Chiang Klan Road.
             </p>
@@ -93,7 +93,7 @@ const Packages = () => {
               </p>
             </div>
             <div className="divider"></div>
-            <p className="text-xl">
+            <p className="text-xl text-[#837e7e]">
               Visit the temples and the Chiang Mai Night Bazaar, a huge huge
               market located on Chiang Klan Road.
             </p>
@@ -121,7 +121,7 @@ const Packages = () => {
           <figure>
             <img
               className="w-full overflow-hidden"
-              src="https://i.ibb.co/LkQsn57/package-03.jpg"
+              src="https://i.ibb.co/1bXXB5J/Package-1.jpg"
               alt=""
             />
           </figure>
@@ -146,7 +146,7 @@ const Packages = () => {
               </p>
             </div>
             <div className="divider"></div>
-            <p className="text-xl">
+            <p className="text-xl text-[#837e7e]">
               Visit the temples and the Chiang Mai Night Bazaar, a huge huge
               market located on Chiang Klan Road.
             </p>
